@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="poodleTitle poodleDesc">
+  <title id="poodleTitle">Poodle illustration</title>
+  <desc id="poodleDesc">An original flat-vector drawing of an apricot Poodle with a rounded curly topknot, fluffy ear puffs, a pom-pom tail and pom-pom paws, standing in a sunny park.</desc>
+
+  <!-- Sky, sun and clouds -->
+  <rect width="320" height="240" fill="#F1ECFA"/>
+  <circle cx="266" cy="44" r="22" fill="#FFD86B"/>
+  <g fill="#FFFFFF" opacity="0.85">
+    <ellipse cx="62" cy="52" rx="28" ry="11"/>
+    <ellipse cx="84" cy="46" rx="18" ry="10"/>
+    <ellipse cx="214" cy="86" rx="20" ry="8"/>
+  </g>
+
+  <!-- Grass and shadow -->
+  <path d="M0 188 Q80 174 160 188 T320 188 V240 H0 Z" fill="#C9E7AE"/>
+  <path d="M0 210 Q90 198 180 210 T320 206 V240 H0 Z" fill="#B2DC96"/>
+  <ellipse cx="160" cy="218" rx="92" ry="11" fill="#8FC576" opacity="0.55"/>
+  <g fill="#FFF3C4"><circle cx="44" cy="214" r="4"/><circle cx="272" cy="220" r="4"/></g>
+
+  <!-- Pom-pom tail -->
+  <circle cx="222" cy="152" r="16" fill="#EFD0A6"/>
+  <circle cx="228" cy="147" r="10" fill="#F8E2C4"/>
+
+  <!-- Slim legs and pom-pom paws -->
+  <rect x="134" y="176" width="14" height="40" rx="7" fill="#EFD0A6"/>
+  <rect x="172" y="176" width="14" height="40" rx="7" fill="#EFD0A6"/>
+  <circle cx="141" cy="212" r="13" fill="#F8E2C4"/>
+  <circle cx="179" cy="212" r="13" fill="#F8E2C4"/>
+
+  <!-- Curly body -->
+  <g fill="#F3D8B2">
+    <circle cx="132" cy="160" r="26"/>
+    <circle cx="160" cy="150" r="30"/>
+    <circle cx="188" cy="160" r="26"/>
+    <circle cx="142" cy="184" r="24"/>
+    <circle cx="178" cy="184" r="24"/>
+  </g>
+  <g fill="#FBE9CE">
+    <circle cx="134" cy="156" r="17"/>
+    <circle cx="160" cy="147" r="20"/>
+    <circle cx="188" cy="156" r="17"/>
+  </g>
+  <ellipse cx="160" cy="174" rx="19" ry="26" fill="#FFF3E0" opacity="0.8"/>
+
+  <!-- Neck -->
+  <rect x="150" y="122" width="20" height="26" rx="9" fill="#EFD0A6"/>
+
+  <!-- Fluffy ear puffs -->
+  <g fill="#E7C398">
+    <circle cx="116" cy="100" r="20"/>
+    <circle cx="112" cy="116" r="16"/>
+    <circle cx="204" cy="100" r="20"/>
+    <circle cx="208" cy="116" r="16"/>
+  </g>
+  <g fill="#F5DDBB">
+    <circle cx="116" cy="98" r="13"/>
+    <circle cx="204" cy="98" r="13"/>
+  </g>
+
+  <!-- Curly topknot -->
+  <g fill="#F8E2C4">
+    <circle cx="136" cy="62" r="18"/>
+    <circle cx="160" cy="54" r="21"/>
+    <circle cx="184" cy="62" r="18"/>
+    <circle cx="148" cy="72" r="16"/>
+    <circle cx="174" cy="72" r="16"/>
+  </g>
+  <g fill="#FFF1DC" opacity="0.85">
+    <circle cx="136" cy="59" r="10"/>
+    <circle cx="160" cy="50" r="12"/>
+    <circle cx="184" cy="59" r="10"/>
+  </g>
+
+  <!-- Narrow face and long muzzle -->
+  <ellipse cx="160" cy="94" rx="29" ry="32" fill="#FBE9CE"/>
+  <ellipse cx="160" cy="116" rx="17" ry="22" fill="#FFF3E0"/>
+  <ellipse cx="160" cy="106" rx="8" ry="6" fill="#3A302A"/>
+  <circle cx="157.5" cy="104.5" r="1.7" fill="#FFFFFF" opacity="0.7"/>
+  <path d="M160 112 v6" stroke="#3A302A" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M160 118 q-7 5 -12 0 M160 118 q7 5 12 0" fill="none" stroke="#3A302A" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <circle cx="147" cy="90" r="4.6" fill="#3A302A"/>
+  <circle cx="173" cy="90" r="4.6" fill="#3A302A"/>
+  <circle cx="145.6" cy="88.6" r="1.5" fill="#FFFFFF"/>
+  <circle cx="171.6" cy="88.6" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Purple collar and tag -->
+  <path d="M142 138 Q160 146 178 138 L177 145 Q160 153 143 145Z" fill="#7C6BB0"/>
+  <circle cx="160" cy="149" r="4.5" fill="#FFD86B"/>
+</svg>

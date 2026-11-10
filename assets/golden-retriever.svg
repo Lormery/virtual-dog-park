@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="goldenTitle goldenDesc">
+  <title id="goldenTitle">Golden Retriever illustration</title>
+  <desc id="goldenDesc">An original flat-vector drawing of a smiling Golden Retriever with a wavy golden coat, floppy ears and a feathery tail, sitting in a sunny park.</desc>
+
+  <!-- Sky, sun and clouds -->
+  <rect width="320" height="240" fill="#EAF5E2"/>
+  <circle cx="52" cy="46" r="21" fill="#FFD86B"/>
+  <g fill="#FFFFFF" opacity="0.85">
+    <ellipse cx="244" cy="44" rx="30" ry="12"/>
+    <ellipse cx="222" cy="39" rx="19" ry="10"/>
+    <ellipse cx="112" cy="82" rx="20" ry="8"/>
+  </g>
+
+  <!-- Grass and shadow -->
+  <path d="M0 188 Q80 174 160 188 T320 188 V240 H0 Z" fill="#BCE3A0"/>
+  <path d="M0 210 Q90 198 180 210 T320 206 V240 H0 Z" fill="#A5D88A"/>
+  <ellipse cx="160" cy="216" rx="100" ry="12" fill="#7FBE6B" opacity="0.55"/>
+  <g fill="#FFF3C4"><circle cx="264" cy="214" r="4"/><circle cx="40" cy="220" r="4"/></g>
+  <g fill="#F08A7A"><circle cx="250" cy="224" r="3.5"/><circle cx="54" cy="208" r="3.5"/></g>
+
+  <!-- Feathery tail behind the body -->
+  <path d="M206 180 C238 182 250 160 244 142 C258 150 264 172 252 190 C240 206 218 200 206 180Z" fill="#DF9A3C"/>
+
+  <!-- Wavy body and lighter chest -->
+  <path d="M108 170 C106 142 118 128 160 128 C202 128 214 142 212 170 C222 184 218 204 204 210 C190 216 130 216 116 210 C102 204 98 184 108 170Z" fill="#EFB055"/>
+  <path d="M142 140 C132 160 132 190 144 208 C160 214 160 214 176 208 C188 190 188 160 178 140 C168 150 152 150 142 140Z" fill="#F8DBA4"/>
+  <g fill="none" stroke="#D99338" stroke-width="3" stroke-linecap="round">
+    <path d="M114 168 q-8 8 0 16"/>
+    <path d="M206 168 q8 8 0 16"/>
+    <path d="M118 190 q-8 7 -2 14"/>
+    <path d="M202 190 q8 7 2 14"/>
+  </g>
+
+  <!-- Front legs and paws -->
+  <rect x="126" y="184" width="24" height="32" rx="12" fill="#EFB055"/>
+  <rect x="170" y="184" width="24" height="32" rx="12" fill="#EFB055"/>
+  <ellipse cx="138" cy="213" rx="15" ry="7" fill="#F8DBA4"/>
+  <ellipse cx="182" cy="213" rx="15" ry="7" fill="#F8DBA4"/>
+
+  <!-- Golden floppy ears -->
+  <path d="M122 76 C100 78 92 106 100 134 C105 150 120 154 128 142 C134 128 132 92 122 76Z" fill="#D99338"/>
+  <path d="M198 76 C220 78 228 106 220 134 C215 150 200 154 192 142 C186 128 188 92 198 76Z" fill="#D99338"/>
+
+  <!-- Head and soft fringe -->
+  <ellipse cx="160" cy="102" rx="46" ry="42" fill="#F1B65C"/>
+  <path d="M118 82 C126 62 146 56 160 58 C174 56 194 62 202 82 C188 74 176 76 160 74 C144 76 132 74 118 82Z" fill="#F7C877"/>
+
+  <!-- Muzzle, nose and happy open smile -->
+  <ellipse cx="160" cy="122" rx="28" ry="20" fill="#F8DBA4"/>
+  <ellipse cx="160" cy="113" rx="9.5" ry="7" fill="#3A302A"/>
+  <circle cx="157" cy="111" r="2" fill="#FFFFFF" opacity="0.65"/>
+  <path d="M144 128 Q160 142 176 128 Q160 136 144 128Z" fill="#3A302A"/>
+  <path d="M153 134 Q160 146 167 134 Q160 139 153 134Z" fill="#EE8C94"/>
+
+  <!-- Eyes and eyebrows -->
+  <circle cx="140" cy="98" r="5.5" fill="#3A302A"/>
+  <circle cx="180" cy="98" r="5.5" fill="#3A302A"/>
+  <circle cx="138.4" cy="96.4" r="1.8" fill="#FFFFFF"/>
+  <circle cx="178.4" cy="96.4" r="1.8" fill="#FFFFFF"/>
+  <g fill="none" stroke="#D99338" stroke-width="2.5" stroke-linecap="round">
+    <path d="M130 87 q9 -5 18 0"/>
+    <path d="M172 87 q9 -5 18 0"/>
+  </g>
+
+  <!-- Blue collar and tag -->
+  <path d="M130 144 Q160 156 190 144 L188 152 Q160 164 132 152Z" fill="#3E7CB1"/>
+  <circle cx="160" cy="158" r="5" fill="#FFD86B"/>
+</svg>

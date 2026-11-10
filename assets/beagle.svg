@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-labelledby="beagleTitle beagleDesc">
+  <title id="beagleTitle">Beagle illustration</title>
+  <desc id="beagleDesc">An original flat-vector drawing of a tricolor Beagle with long floppy ears and a white-tipped tail, sitting on the grass in a sunny park.</desc>
+
+  <!-- Sky, sun and clouds -->
+  <rect width="320" height="240" fill="#E4F3F7"/>
+  <circle cx="266" cy="44" r="22" fill="#FFD86B"/>
+  <g fill="#FFFFFF" opacity="0.85">
+    <ellipse cx="66" cy="48" rx="30" ry="12"/>
+    <ellipse cx="88" cy="42" rx="20" ry="11"/>
+    <ellipse cx="216" cy="86" rx="22" ry="9"/>
+  </g>
+
+  <!-- Grass and shadow -->
+  <path d="M0 186 Q80 172 160 186 T320 186 V240 H0 Z" fill="#BCE3A0"/>
+  <path d="M0 208 Q90 196 180 208 T320 204 V240 H0 Z" fill="#A5D88A"/>
+  <ellipse cx="160" cy="216" rx="96" ry="12" fill="#7FBE6B" opacity="0.55"/>
+  <g fill="#FFF3C4"><circle cx="42" cy="212" r="4"/><circle cx="274" cy="216" r="4"/></g>
+  <g fill="#F08A7A"><circle cx="58" cy="222" r="3.5"/><circle cx="256" cy="206" r="3.5"/></g>
+
+  <!-- White-tipped tail behind the body -->
+  <path d="M204 178 C232 180 240 158 232 144 C246 152 250 178 232 192 C220 200 210 194 204 178Z" fill="#F7EFE0"/>
+
+  <!-- Body, black saddle and tan patch -->
+  <ellipse cx="160" cy="172" rx="54" ry="42" fill="#F8EFE0"/>
+  <path d="M112 158 C118 132 202 130 208 158 C190 146 130 146 112 158Z" fill="#3B3835"/>
+  <path d="M112 166 C116 178 122 190 132 196 C124 182 122 172 122 162Z" fill="#C8894A"/>
+
+  <!-- Front legs and paws -->
+  <rect x="128" y="180" width="22" height="34" rx="11" fill="#F8EFE0"/>
+  <rect x="170" y="180" width="22" height="34" rx="11" fill="#F8EFE0"/>
+  <ellipse cx="139" cy="212" rx="14" ry="7" fill="#FFF9EF"/>
+  <ellipse cx="181" cy="212" rx="14" ry="7" fill="#FFF9EF"/>
+  <g stroke="#E0CDB3" stroke-width="1.6" stroke-linecap="round">
+    <path d="M135 209 v4"/><path d="M143 209 v4"/>
+    <path d="M177 209 v4"/><path d="M185 209 v4"/>
+  </g>
+
+  <!-- Long floppy ears -->
+  <path d="M120 78 C98 74 88 100 96 132 C101 152 114 158 124 148 C132 138 130 96 120 78Z" fill="#7A4A2B"/>
+  <path d="M200 78 C222 74 232 100 224 132 C219 152 206 158 196 148 C188 138 190 96 200 78Z" fill="#7A4A2B"/>
+
+  <!-- Head, white blaze and tan eye patch -->
+  <ellipse cx="160" cy="102" rx="46" ry="42" fill="#C8894A"/>
+  <path d="M152 64 C146 82 147 104 154 122 C158 130 162 130 166 122 C173 104 174 82 168 64Z" fill="#FFF7EA"/>
+  <ellipse cx="182" cy="92" rx="19" ry="17" fill="#A96C34" opacity="0.65"/>
+
+  <!-- Muzzle, nose and smile -->
+  <ellipse cx="160" cy="124" rx="27" ry="19" fill="#FFF7EA"/>
+  <ellipse cx="160" cy="114" rx="9" ry="7" fill="#2F2B29"/>
+  <circle cx="157" cy="112" r="2" fill="#FFFFFF" opacity="0.7"/>
+  <path d="M160 121 v6" stroke="#2F2B29" stroke-width="2" stroke-linecap="round"/>
+  <path d="M160 127 q-9 7 -16 0 M160 127 q9 7 16 0" fill="none" stroke="#2F2B29" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <circle cx="141" cy="98" r="5.5" fill="#2F2B29"/>
+  <circle cx="179" cy="98" r="5.5" fill="#2F2B29"/>
+  <circle cx="139.4" cy="96.4" r="1.8" fill="#FFFFFF"/>
+  <circle cx="177.4" cy="96.4" r="1.8" fill="#FFFFFF"/>
+
+  <!-- Red collar and tag -->
+  <path d="M132 144 Q160 156 188 144 L186 152 Q160 164 134 152Z" fill="#E2604A"/>
+  <circle cx="160" cy="158" r="5" fill="#FFD86B"/>
+</svg>
