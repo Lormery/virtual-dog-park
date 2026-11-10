@@ -148,6 +148,219 @@ main {
   color: #435048;
 }
 
+/* ---------- My Virtual Dog (Round 2) ---------- */
+/* The hidden attribute has to beat the display rules on our panels. */
+[hidden] {
+  display: none !important;
+}
+
+.my-dog {
+  margin-top: 48px;
+}
+
+.panel {
+  max-width: 720px;
+  background: #ffffff;
+  border: 1px solid #e3eddc;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 8px 22px rgba(47, 74, 57, 0.10);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-weight: 700;
+  color: #2f6b44;
+  margin-bottom: 6px;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 1rem; /* 16px also stops mobile browsers from zooming in */
+  color: #33403a;
+  background: #fffdf8;
+  border: 2px solid #cfe3c4;
+  border-radius: 10px;
+}
+
+.field input:focus-visible,
+.field select:focus-visible,
+.btn:focus-visible {
+  outline: 3px solid #e9a23b;
+  outline-offset: 2px;
+}
+
+.hint {
+  margin: 6px 0 0;
+  font-size: 0.86rem;
+  color: #6c7a71;
+}
+
+.btn {
+  min-height: 44px;
+  padding: 11px 26px;
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn--primary {
+  background: #2f6b44;
+  color: #ffffff;
+}
+
+.btn--primary:hover {
+  background: #255738;
+}
+
+.btn--secondary {
+  background: #eaf5e2;
+  color: #2f6b44;
+  border: 2px solid #bcdcb0;
+}
+
+.btn--secondary:hover {
+  background: #d8eecb;
+}
+
+.message {
+  margin: 16px 0 0;
+  font-size: 0.95rem;
+  color: #2f6b44;
+}
+
+.message:empty {
+  display: none;
+}
+
+.message--error {
+  background: #fdecea;
+  border-left: 4px solid #d9534f;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #9c2b28;
+}
+
+/* Adopted dog status */
+.status-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.status-photo {
+  width: 132px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #eaf5e2;
+}
+
+.status-name {
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  font-size: 1.5rem;
+  color: #2f6b44;
+  margin: 0 0 4px;
+  overflow-wrap: anywhere;
+}
+
+.status-breed {
+  margin: 0;
+  color: #56645c;
+}
+
+.status-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 0 0 22px;
+}
+
+.status-item {
+  background: #f5faf1;
+  border-radius: 12px;
+  padding: 10px 14px;
+}
+
+.status-item dt {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #a9682a;
+}
+
+.status-item dd {
+  margin: 2px 0 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #33403a;
+}
+
+.happiness {
+  margin-bottom: 20px;
+}
+
+.happiness__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-weight: 700;
+  color: #2f6b44;
+  margin-bottom: 8px;
+}
+
+.happiness__track {
+  width: 100%;
+  height: 18px;
+  background: #e6eee1;
+  border: 1px solid #d3e4c9;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.happiness__fill {
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #8dc97a, #3f7f55);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.happiness__fill--full {
+  background: linear-gradient(90deg, #f0b64b, #e9a23b);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: #2f6b44;
@@ -187,5 +400,25 @@ main {
 
   .dog-card__body {
     padding: 18px;
+  }
+
+  .my-dog {
+    margin-top: 34px;
+  }
+
+  .panel {
+    padding: 18px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .status-photo {
+    width: 104px;
+  }
+
+  .actions .btn {
+    flex: 1 1 120px;
   }
 }

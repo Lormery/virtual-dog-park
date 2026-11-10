@@ -83,6 +83,78 @@
       </div>
     </section>
 
+    <!-- My Virtual Dog: adopt one dog and take care of it -->
+    <section class="my-dog" aria-labelledby="my-dog-heading">
+      <h2 id="my-dog-heading" class="section-heading">My Virtual Dog</h2>
+      <p class="section-intro">Choose a breed, give your new friend a name, and adopt. Then keep them smiling with a meal or a game in the park.</p>
+
+      <!-- Adoption form. It is hidden once a dog has been adopted. -->
+      <form id="adoption-form" class="panel" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="dog-breed">Breed</label>
+            <select id="dog-breed" name="breed">
+              <option value="Beagle">Beagle</option>
+              <option value="Golden Retriever">Golden Retriever</option>
+              <option value="Poodle">Poodle</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="dog-name">Dog's name</label>
+            <input type="text" id="dog-name" name="dogName" autocomplete="off"
+                   aria-describedby="name-hint" placeholder="e.g. Biscuit">
+            <p id="name-hint" class="hint">Up to 20 characters. Spaces inside the name are fine.</p>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn--primary">Adopt</button>
+        <p id="form-error" class="message message--error" role="alert" hidden></p>
+      </form>
+
+      <!-- Dog status. Only shown after a successful adoption. -->
+      <div id="dog-status" class="panel" hidden>
+        <div class="status-header">
+          <img id="status-photo" class="status-photo" src="assets/beagle.svg" width="320" height="240"
+               alt="Illustration of your adopted dog">
+          <div>
+            <h3 id="status-name" class="status-name" tabindex="-1"></h3>
+            <p class="status-breed">Breed: <span id="status-breed"></span></p>
+          </div>
+        </div>
+
+        <dl class="status-list">
+          <div class="status-item">
+            <dt>Current day</dt>
+            <dd id="status-day"></dd>
+          </div>
+          <div class="status-item">
+            <dt>Growth stage</dt>
+            <dd id="status-stage"></dd>
+          </div>
+        </dl>
+
+        <div class="happiness">
+          <div class="happiness__top">
+            <span>Happiness</span>
+            <span id="happiness-value"></span>
+          </div>
+          <div id="happiness-track" class="happiness__track" role="progressbar"
+               aria-label="Happiness" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+            <div id="happiness-fill" class="happiness__fill"></div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button type="button" id="feed-btn" class="btn btn--secondary">Feed</button>
+          <button type="button" id="play-btn" class="btn btn--secondary">Play</button>
+        </div>
+
+        <p id="status-message" class="message" role="status" aria-live="polite"></p>
+        <p class="hint">One dog at a time - reload the page to choose a different friend.</p>
+      </div>
+    </section>
+
   </main>
 
   <footer class="site-footer">
