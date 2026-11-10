@@ -130,9 +130,19 @@
           </div>
           <div class="status-item">
             <dt>Growth stage</dt>
-            <dd id="status-stage"></dd>
+            <dd id="status-stage" aria-live="polite"></dd>
           </div>
         </dl>
+
+        <!-- Three-stage growth indicator: the current stage is highlighted -->
+        <div class="growth" aria-labelledby="growth-label">
+          <p id="growth-label" class="growth__label">Growth progress</p>
+          <ol class="growth__steps">
+            <li class="growth__step growth__step--puppy">Puppy</li>
+            <li class="growth__step growth__step--young">Young Dog</li>
+            <li class="growth__step growth__step--adult">Adult Dog</li>
+          </ol>
+        </div>
 
         <div class="happiness">
           <div class="happiness__top">
@@ -148,10 +158,15 @@
         <div class="actions">
           <button type="button" id="feed-btn" class="btn btn--secondary">Feed</button>
           <button type="button" id="play-btn" class="btn btn--secondary">Play</button>
+          <button type="button" id="next-day-btn" class="btn btn--day">Next Day</button>
         </div>
 
         <p id="status-message" class="message" role="status" aria-live="polite"></p>
-        <p class="hint">One dog at a time - reload the page to choose a different friend.</p>
+
+        <div class="status-footer">
+          <button type="button" id="start-over-btn" class="btn btn--quiet">Start Over</button>
+          <p class="hint">One dog at a time. Your dog is saved automatically in this browser.</p>
+        </div>
       </div>
     </section>
 

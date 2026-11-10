@@ -361,6 +361,110 @@ main {
   gap: 12px;
 }
 
+/* ---------- Growth, Next Day and Start Over (Round 3) ---------- */
+.growth {
+  margin-bottom: 22px;
+}
+
+.growth__label {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #2f6b44;
+}
+
+.growth__steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.growth__step {
+  padding: 9px 6px;
+  text-align: center;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #7d8b81;
+  background: #f5faf1;
+  border: 2px solid #e1ebe0;
+  border-radius: 10px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+/* Each stage gets its own colour, so all three look clearly different. */
+.growth__step--puppy.growth__step--active {
+  background: #f6c86a;
+  border-color: #e9a23b;
+  color: #5c3d09;
+}
+
+.growth__step--young.growth__step--active {
+  background: #9ed28a;
+  border-color: #6fb56a;
+  color: #23461f;
+}
+
+.growth__step--adult.growth__step--active {
+  background: #2f6b44;
+  border-color: #255738;
+  color: #ffffff;
+}
+
+.growth__step--active {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(47, 74, 57, 0.16);
+}
+
+.growth__step--done {
+  background: #e8f3e1;
+  border-color: #cfe3c4;
+  color: #3f7f55;
+}
+
+/* The dog illustration changes size as it grows. */
+.status-photo--puppy {
+  width: 96px;
+}
+
+.status-photo--young {
+  width: 132px;
+}
+
+.status-photo--adult {
+  width: 168px;
+}
+
+.btn--day {
+  background: #e9a23b;
+  color: #ffffff;
+}
+
+.btn--day:hover {
+  background: #cf8b2c;
+}
+
+.btn--quiet {
+  padding: 8px 20px;
+  font-size: 0.92rem;
+  color: #6c7a71;
+  background: #ffffff;
+  border: 2px solid #d8e3d3;
+}
+
+.btn--quiet:hover {
+  background: #f5faf1;
+  color: #2f6b44;
+}
+
+.status-footer {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #e3eddc;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: #2f6b44;
@@ -418,7 +522,28 @@ main {
     width: 104px;
   }
 
+  .status-photo--puppy {
+    width: 78px;
+  }
+
+  .status-photo--young {
+    width: 104px;
+  }
+
+  .status-photo--adult {
+    width: 132px;
+  }
+
   .actions .btn {
     flex: 1 1 120px;
+  }
+
+  .growth__steps {
+    gap: 5px;
+  }
+
+  .growth__step {
+    font-size: 0.75rem;
+    padding: 8px 3px;
   }
 }
